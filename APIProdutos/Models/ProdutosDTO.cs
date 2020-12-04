@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace APIProdutos.Models
 {
-    public class ProdutosModel : EntityBaseModel
+    public class ProdutosDTO : EntityBaseModel
     {
     }
 }

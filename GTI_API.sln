@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIProdutos", "APIProdutos\APIProdutos.csproj", "{191D24C3-EA99-4FA6-835B-A19A5BD0B573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIProdutos", "APIProdutos\APIProdutos.csproj", "{191D24C3-EA99-4FA6-835B-A19A5BD0B573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GITDAO", "GITDAO\GITDAO.csproj", "{48A08167-90A6-4F6E-B570-7027C3B24B5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{191D24C3-EA99-4FA6-835B-A19A5BD0B573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{191D24C3-EA99-4FA6-835B-A19A5BD0B573}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{191D24C3-EA99-4FA6-835B-A19A5BD0B573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A08167-90A6-4F6E-B570-7027C3B24B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A08167-90A6-4F6E-B570-7027C3B24B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A08167-90A6-4F6E-B570-7027C3B24B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A08167-90A6-4F6E-B570-7027C3B24B5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

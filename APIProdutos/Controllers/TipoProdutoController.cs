@@ -11,13 +11,13 @@ namespace APIProdutos.Controllers
     [ApiController]
     public class TipoProdutoController : ControllerBase
     {
-        private static List<TipoProdutoModel> lstProdutos = new List<TipoProdutoModel>();
+        private static List<TipoProdutoDTO> lstProdutos = new List<TipoProdutoDTO>();
 
         [HttpPost]
         [Route("")]
-        public ActionResult inserirProduto([FromBody] TipoProdutoModel tipoProdutoModel)
+        public ActionResult inserirProduto([FromBody] TipoProdutoDTO tipoProdutoModel)
         {
-            lstProdutos.Add(new TipoProdutoModel()
+            lstProdutos.Add(new TipoProdutoDTO()
             {
                 ID = tipoProdutoModel.ID,
                 descricao = tipoProdutoModel.descricao,

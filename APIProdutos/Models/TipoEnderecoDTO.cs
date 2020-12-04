@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace APIProdutos.Models
 {
-    public class TipoProdutoModel : EntityBaseModel
+    public class TipoEnderecoDTO
     {
-        public string descricao { get; set; }
+        public int ID { get; set; }
 
-        public int? idTipoPai { get; set; }
+        public string Descricao { get; set; }
     }
 }
